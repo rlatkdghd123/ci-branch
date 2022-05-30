@@ -3,6 +3,8 @@ name: My Image build
 on:
   push:
     branches: [ feature/update ]
+  pull_request:
+    branches: [ feature/update ]
 
 jobs:
 
